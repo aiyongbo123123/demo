@@ -1,0 +1,13 @@
+
+spring:
+    datasource:
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      url: jdbc:sqlserver://127.0.0.1:1433;DatabaseName=gktj
+      username: sa
+      password: 123
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.example.demo.bean
+  configuration:
+    call-setters-on-nulls: true
