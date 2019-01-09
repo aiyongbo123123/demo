@@ -1,4 +1,6 @@
-
+server:
+    port: 8088
+    session-timeout: 600
 spring:
     datasource:
       driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
@@ -11,3 +13,7 @@ mybatis:
   type-aliases-package: com.example.demo.bean
   configuration:
     call-setters-on-nulls: true
+baseurl: http://localhost:8080
+
+
+
