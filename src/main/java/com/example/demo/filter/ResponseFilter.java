@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 
-@Component
+//@Component
 public class ResponseFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
